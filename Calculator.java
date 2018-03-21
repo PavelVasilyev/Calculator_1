@@ -24,7 +24,7 @@ public class Calculator {
 
         }
 
-        if (z == 2) {                    // условие для вычитания
+        if (z == 2) {                    // условие для вычитания //
             double w = x - y;
             scanner.close();
             System.out.printf("%.4f", w);
