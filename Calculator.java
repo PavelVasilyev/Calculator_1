@@ -19,22 +19,30 @@ public class Calculator {
 
         if (z == 1) {                     // условие для сложения
             double w = x + y;
+            scanner.close();
             System.out.printf("%.4f", w);
+
         }
 
         if (z == 2) {                    // условие для вычитания
             double w = x - y;
+            scanner.close();
             System.out.printf("%.4f", w);
+
         }
 
         if (z == 3) {                    // условие для умножения
             double w = x * y;
+            scanner.close();
             System.out.printf("%.4f", w);
+
         }
 
         if (z == 4) {                     // условие для деления
             double w = x / y;
+            scanner.close();
             System.out.printf("%.4f", w);
+
         }
     }
 
