@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class MaxLenghtElement {
     MaxLenghtElement() {
         Scanner in = new Scanner(System.in);
-        System.out.print("Введите словесный понос: ");
+        System.out.print("Введите слова через пробел: ");
         String s = in.nextLine();
         String[] word = s.split(" ");
         String max = " ";
