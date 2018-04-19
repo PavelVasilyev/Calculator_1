@@ -1,9 +1,8 @@
-import java.io.*;
 import java.util.Scanner;
 
 public class Calculator {
     //напишите тут ваш код
-    public static void main(String[] args) throws Exception {
+    Calculator() {
         Scanner scanner = new Scanner(System.in); // Создаем чтение потока с клавиатруры
 
         System.out.println("Введите первое число");
