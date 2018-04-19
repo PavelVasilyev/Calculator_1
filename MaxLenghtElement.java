@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 public class MaxLenghtElement {
-    public static void main(String[] args) {
-
+    MaxLenghtElement() {
         Scanner in = new Scanner(System.in);
         System.out.print("Введите словесный понос: ");
         String s = in.nextLine();
