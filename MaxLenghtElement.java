@@ -12,8 +12,7 @@ public class MaxLenghtElement {
                 max = word[i];
             }
         }
-        System.out.println("");
-        System.out.println("Максимально длинное слово: ");
+        System.out.println("" + "Максимально длинное слово: ");
         System.out.println(max);
         System.out.println("Максимальная длинна слова: ");
         System.out.println(max.length());
